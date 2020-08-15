@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  --header1: calc(1rem + 1vw);
+}
+
+a {
+  color: white;
+  font-size: var(--header1);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: var(--header1);
+  font-family: "Great Vibes", cursive;
+  text-shadow: 3px 3px black;
+}
+h2 {
+  font-size: 10rem;
+  font-family: "Great Vibes", cursive;
+  text-shadow: 3px 3px black;
+}
+h3 {
+  font-size: 5rem;
+  font-weight: normal;
+  color: white;
+  font-family: "Great Vibes", cursive;
+}
+h4,
+p {
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h2,
+p {
+  color: white;
+}
+ul {
+  list-style: none;
+}
+
+/* Nav bar */
+
+#main-head {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), rgb(105, 48, 31); /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.1s; /* Transition effect when sliding down (and up) */
+  box-shadow: 1px 1px 1px 2px rgba(10, 0, 0, 0.507);
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  min-height: 8vh;
+  padding: 2rem 0rem;
+}
+
+#logo {
+  flex: 1 1 10rem;
+  margin-left: 4rem;
+}
+
+/* Style the navbar links */
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 1rem;
+}
+
+.nav-links a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*hero*/
+#hero {
+  min-height: 100vh;
+  background: url("./pexels-afta-putta-gunawan-683039.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title-page {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-page h2 {
+  padding: 1rem 0rem;
+  text-align: center;
+}
+.title-page h3 {
+  padding: 2rem 0rem;
+  background: rgba(0, 0, 0, 0.657);
+  margin: 2rem;
+  text-align: center;
+  box-shadow: 10px 10px 10px 10px rgba(240, 237, 237, 0.1);
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; */
+  /*
+  background: linear-gradient(black, lightgray);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  the way to make text gradient(fade) */
+}
+/*Benefits Section */
+
+.benefits-head {
+  background: rgb(105, 48, 31);
+  padding: 3rem;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.benefits-head h3 {
+  padding: 1rem;
+}
+
+.cards {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  min-height: 70vh;
+  max-height: 100vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  text-align: center;
+  flex: 1 1 25rem;
+  min-height: 50vh;
+  margin: 2rem 5rem;
+  padding: 16px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cards img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-icon {
+  width: 100%;
+  height: 300px;
+}
+.card h4 {
+  padding: 1rem;
+}
+.card p {
+  padding: 1rem;
+  color: black;
+}
+/*footer*/
