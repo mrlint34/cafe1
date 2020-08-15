@@ -128,6 +128,56 @@ nav {
 }
 /*Benefits Section */
 
+.store-head {
+  background: rgb(105, 48, 31);
+  padding: 3rem;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.store-head h3 {
+  padding: 1rem;
+}
+
+.coffee-bags {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  min-height: 70vh;
+  max-height: 50vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bag {
+  text-align: center;
+  flex: 1 1 25rem;
+  min-height: 50vh;
+  margin: 2rem 5rem;
+  padding: 16px;
+}
+
+.coffee-bags img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.bag-icon {
+  width: 100%;
+  height: 300px;
+}
+.bag h4 {
+  padding: 1rem;
+}
+.bag p {
+  padding: 1rem;
+  color: black;
+}
+/*Benefits Section */
+
 .benefits-head {
   background: rgb(105, 48, 31);
   padding: 3rem;
@@ -138,6 +188,7 @@ nav {
   align-items: center;
   color: white;
   text-align: center;
+  position: relative;
 }
 .benefits-head h3 {
   padding: 1rem;
